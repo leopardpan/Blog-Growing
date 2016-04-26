@@ -12,7 +12,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://baixin.io
+url: http://www.baixin.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -64,6 +64,12 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: yilia
+
+
+plugins: hexo-generator-sitemap
+
+sitemap:
+    path: sitemap.xml
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
