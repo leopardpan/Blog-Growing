@@ -41,6 +41,14 @@ iOS personal data summary
 ### Article
 ### Summary&Note
 
+
+* [cmd Markdown](https://www.zybuluo.com/mdeditor) 作业部落出版的Markdown编辑器       
+* [RESTClient](https://github.com/rest-client/rest-client) 一个开源的客户端HTTP调试工具。    
+* [lantern](https://github.com/getlantern/lantern) 蓝灯,一款开源的翻墙工具。    
+* [Charles](https://www.charlesproxy.com/) 青花瓷, 一款HTTP/HTTPS的抓包工具。  
+* [Sublime](http://www.sublimetext.com) 一款强大的IDE,支持Python、JS、JSON格式化等等...更重要的是`Sublime`支持的插件很多。     
+
+
 ```bash
 1、断点配置：【Generate Debug Symbols】     
 描述: 用来控制断点是否生效,关闭此功能，打包.ipa时，包体积会小很多。    
