@@ -20,6 +20,11 @@ iOS personal data summary
 ## Data Persistence
 ### Article
 ### Summary&Note
+```bash
+1、NSKeyedArchiver 自定义对象写文件, 如果存储的对象类名有变动，则需要设置clasName, 【setClassName:forClass:】。        
+使用 NSKeyedArchiver 进行数据持久化时, 系统会默认使用类名去建表，如果类名变了，那么使用新的类名肯定是从本地获取不到表的。     
+所以需要在 NSKeyedArchiver 或者 NSKeyedUnarchiver 时使用 【setClassName:forClass:】 指定类名。    
+```
 
 ## Network
 ### Article
