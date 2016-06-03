@@ -12,12 +12,10 @@
 <meta property="og:url" content="http://www.baixin.io/2015/09/26/iOS9 变化笔记/index.html">
 <meta property="og:site_name" content="潘柏信">
 <meta property="og:description" content="iOS9 变化笔记, 以及工作中常遇到的问题">
-<meta property="og:image" content="http://www.baixin.io/img/iOS9.png">
-<meta property="og:updated_time" content="2016-04-26T01:52:56.000Z">
+<meta property="og:updated_time" content="2016-06-03T03:39:52.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="iOS 9 变化笔记">
 <meta name="twitter:description" content="iOS9 变化笔记, 以及工作中常遇到的问题">
-<meta name="twitter:image" content="http://www.baixin.io/img/iOS9.png">
   
     <link rel="alternative" href="/atom.xml" title="潘柏信" type="application/atom+xml">
   
@@ -236,9 +234,8 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p><img src="/img/iOS9.png" alt="iOS9"></p>
+        <p>这里将介绍下我们日常开发一些从iOS8过度到iOS9给我们带来的一些变化，及解决方法。</p>
 <a id="more"></a>
-<p>这里将介绍下我们日常开发一些从iOS8过度到iOS9给我们带来的一些变化，及解决方法。</p>
 <h2 id="App-Transport-Security"><a href="#App-Transport-Security" class="headerlink" title="App Transport Security"></a>App Transport Security</h2><p>iOS9和OS X El Capitan的一个新特性，App Transport Security 的目地是提高Apple 操作系统的安全性以及在此操作系统上运行的任何应用的安全性。ATS是苹果针对与 NSURL这一层做的封装，iOS9后ATS默认是开启的，即网络传输需要使用HTTPS。如果想在iOS9后继续使用HTTP的话，有两条路可以走：</p>
 <ol>
 <li>在Info.plist中添加 <code>NSAppTransportSecurity</code>类型Dictionary，在<code>NSAppTransportSecurity</code>下添加<code>NSAllowsArbitraryLoads</code>，Boolean 为 YES。</li>

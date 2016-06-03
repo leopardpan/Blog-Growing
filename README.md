@@ -1,6 +1,6 @@
 # Blog-Growing
 
-`Blog-Growing` 是我使用Hexo打架的博客, 里面有博客的配置以及主题的设置。    
+`Blog-Growing` 是我使用Hexo搭建的博客, 里面有博客的配置以及主题的设置。    
 你可以使用命令 clone https://github.com/leopardpan/Blog-Growing.git 到本地, 然后看本地博客预览。
 
 **如果在你的电脑上配置过Hexo**:       

@@ -6,18 +6,22 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <title>iBeacon 能为开发者做什么？ | 潘柏信</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description">
+  <meta name="description" content="简介：
+iOS7后苹果出的一项新技术，支持蓝牙4.0(或以上)的iOS设备，工作方式是低功耗蓝牙（BLE），一个 iBeacon 硬件设备在不做任何处理的情况下一般可使用两三年左右。
+可实现地理围栏、室内定位等功能，测量距离：iBeacon 通过设备的 UUID 可以检测到具体的 iBeacon 信息，如：Major ，Minor ，用来进行多个 iBeacon 区分，RSSI ，用来计算信号接受">
 <meta property="og:type" content="article">
 <meta property="og:title" content="iBeacon 能为开发者做什么？">
 <meta property="og:url" content="http://www.baixin.io/2016/04/07/iBeacon/index.html">
 <meta property="og:site_name" content="潘柏信">
-<meta property="og:description">
-<meta property="og:image" content="http://www.baixin.io/img/iBeacon.png">
-<meta property="og:updated_time" content="2016-04-26T01:52:56.000Z">
+<meta property="og:description" content="简介：
+iOS7后苹果出的一项新技术，支持蓝牙4.0(或以上)的iOS设备，工作方式是低功耗蓝牙（BLE），一个 iBeacon 硬件设备在不做任何处理的情况下一般可使用两三年左右。
+可实现地理围栏、室内定位等功能，测量距离：iBeacon 通过设备的 UUID 可以检测到具体的 iBeacon 信息，如：Major ，Minor ，用来进行多个 iBeacon 区分，RSSI ，用来计算信号接受">
+<meta property="og:updated_time" content="2016-06-03T03:39:41.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="iBeacon 能为开发者做什么？">
-<meta name="twitter:description">
-<meta name="twitter:image" content="http://www.baixin.io/img/iBeacon.png">
+<meta name="twitter:description" content="简介：
+iOS7后苹果出的一项新技术，支持蓝牙4.0(或以上)的iOS设备，工作方式是低功耗蓝牙（BLE），一个 iBeacon 硬件设备在不做任何处理的情况下一般可使用两三年左右。
+可实现地理围栏、室内定位等功能，测量距离：iBeacon 通过设备的 UUID 可以检测到具体的 iBeacon 信息，如：Major ，Minor ，用来进行多个 iBeacon 区分，RSSI ，用来计算信号接受">
   
     <link rel="alternative" href="/atom.xml" title="潘柏信" type="application/atom+xml">
   
@@ -236,11 +240,11 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p><img src="/img/iBeacon.png" alt="ibeacon"><br><a id="more"></a></p>
-<h2 id="简介："><a href="#简介：" class="headerlink" title="简介："></a>简介：</h2><ul>
+        <h2 id="简介："><a href="#简介：" class="headerlink" title="简介："></a>简介：</h2><ul>
 <li>iOS7后苹果出的一项新技术，支持蓝牙4.0(或以上)的iOS设备，工作方式是低功耗蓝牙（BLE），一个 <code>iBeacon</code> 硬件设备在不做任何处理的情况下一般可使用两三年左右。</li>
 <li>可实现地理围栏、室内定位等功能，测量距离：<a href="https://developer.apple.com/ibeacon/" target="_blank" rel="external">iBeacon</a> 通过设备的 <code>UUID</code> 可以检测到具体的 <code>iBeacon</code> 信息，如：<code>Major</code> ，<code>Minor</code> ，用来进行多个 <code>iBeacon</code> 区分，<code>RSSI</code> ，用来计算信号接受者到 <code>iBeacon</code> 信号发射硬件之间的距离。<code>identifier</code> : 用来区分某一块的 <code>iBeacon</code> 信号，<code>iBeacon</code> 信号接受者自定义。iBeacon信号会因为人或物而遮挡信息强度，影响iBeacon信号接收。</li>
 </ul>
+<a id="more"></a>
 <h4 id="iBeacon功能-对开发者使用的额外成本"><a href="#iBeacon功能-对开发者使用的额外成本" class="headerlink" title="iBeacon功能 对开发者使用的额外成本:"></a><strong>iBeacon功能 对开发者使用的额外成本:</strong></h4><ul>
 <li><code>iBeacon</code> 也属于一种定位功能，所以需要添加 <code>CoreLocation.framework</code> 。</li>
 <li><code>App</code> 开发者需要开启定位功能需要配置：在 <code>Xcode</code> 的 <code>info.plist</code> 里面添加 <code>NSLocationAlwaysUsageDescription</code> 或 <code>NSLocationWhenInUseUsageDescription</code> 字段。（iOS7后该添加了该字段应用才会弹出 `是否允许应用访问用户的位置信息）。</li>
@@ -268,18 +272,18 @@
     
 <nav id="article-nav">
   
-    <a href="/2016/04/26/CocoaPod使用心得/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2016/06/02/开发常用工具/" id="article-nav-newer" class="article-nav-link-wrap">
       <strong class="article-nav-caption"><</strong>
       <div class="article-nav-title">
         
-          CocoaPods使用心得
+          开发常用工具
         
       </div>
     </a>
   
   
-    <a href="/2016/01/09/iOS动态更新/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">iOS动态更新</div>
+    <a href="/2016/04/02/CocoaPod使用心得/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">CocoaPods使用心得</div>
       <strong class="article-nav-caption">></strong>
     </a>
   

@@ -3,10 +3,6 @@ title: HEXO进阶
 category: 博客
 ---
 
-![HEXO进阶](/img/HEXO.png)
-
-<!--more-->
-
 # HEXO进阶
 
 * 1、博客部署样式出问题了怎么办？
@@ -15,6 +11,11 @@ category: 博客
 * 4、为何使用百度搜不到我的博客？
 
 最近有好多朋友问我类似的问题, 同样也是我想解决的问题, 下面我会一个一个的介绍怎么解决上面的几个问题。
+
+
+<!--more-->
+
+
 
 ### 使用Jekyll解决前三个问题。
 不得不说 `Jekyll` 确实可以解决我上面三个问题, 因为 `Jekyll` 是直接把Markdown格式的文章直接放在github仓库里的, 相当于直接用git来管理博客了, `Github` 官方也很推荐 `Jekyll` 。 你可以先看下 `Jekyll` 搭建博客的[voyagelab](voyagelab.github.io), [github地址](https://github.com/voyagelab/voyagelab.github.io), 当然了这只是很普通的, Jekyll 也有很多主题可以选择的, 更详细的请看[Jekyll中文文档](http://jekyll.bootcss.com/)、[Jekyll英文文档](https://jekyllrb.com/)、[Jekyll主题列表](http://jekyllthemes.org/)。

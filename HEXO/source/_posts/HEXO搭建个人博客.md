@@ -6,11 +6,9 @@ description: "HEXO配置，HEXO+Github，搭建自己的博客"
 category: 博客
 ---
 
-![HEXO](/img/HEXO.png)
+经过各种找资料，踩过何种坑，终于搭建好了hexo，域名目前用得时github的，我的hexo是3.1.1版本，hexo不同的版本，很多配置都不一样。好吧，废话不多说了，开始吧。
 
 <!--more-->
-
-　经过各种找资料，踩过何种坑，终于搭建好了hexo，域名目前用得时github的，我的hexo是3.1.1版本，hexo不同的版本，很多配置都不一样。好吧，废话不多说了，开始吧。
 
 ## 正文：
 　这边教程是针对与Mac的，[参考链接](http://ibruce.info/2013/11/22/hexo-your-blog/?utm_source=tuicool)，由于原文讲到的hexo是以前的老版本，所以现在的版本配置的时候会有些改动。

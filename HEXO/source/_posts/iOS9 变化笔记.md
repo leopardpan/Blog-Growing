@@ -6,12 +6,10 @@ description: "iOS9 变化笔记, 以及工作中常遇到的问题"
 category: iOS
 ---
 
-![iOS9](/img/iOS9.png)
-
-<!--more-->
-
 
 这里将介绍下我们日常开发一些从iOS8过度到iOS9给我们带来的一些变化，及解决方法。
+
+<!--more-->
 
 ## App Transport Security
 
