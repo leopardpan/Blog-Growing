@@ -3,7 +3,7 @@ title: HEXO进阶
 category: 博客
 ---
 
-![HEXO进阶](/img/HEXO1.png)
+![HEXO进阶](/img/HEXO.png)
 
 <!--more-->
 
