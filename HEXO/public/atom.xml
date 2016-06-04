@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Wiki</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://wiki.baixin.io/"/>
+  <updated>2016-06-04T03:04:20.000Z</updated>
+  <id>http://wiki.baixin.io/</id>
+  
+  <author>
+    <name>leopardpan</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Dev-Note</title>
+    <link href="http://wiki.baixin.io/2016/06/04/Dev-Note/"/>
+    <id>http://wiki.baixin.io/2016/06/04/Dev-Note/</id>
+    <published>2016-06-04T02:49:32.000Z</published>
+    <updated>2016-06-04T03:04:20.000Z</updated>
+    
+    <content type="html">&lt;p&gt;开发过程中的小问题记录&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;Dev&quot;&gt;&lt;a href=&quot;#Dev&quot; class=&quot;headerlink&quot; title=&quot;Dev&quot;&gt;&lt;/a&gt;Dev&lt;/h2&gt;&lt;p&gt;1、NSKeyedArchiver 自定义对象写文件&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;如果存储的对象类名有变动，则需要设置clasName, 【setClassName:forClass:】。        &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;使用 NSKeyedArchiver 进行数据持久化时, 系统会默认使用类名去建表，如果类名变了，那么使用新的类名肯定是从本地获取不到表的。     &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;所以需要在 NSKeyedArchiver 或者 NSKeyedUnarchiver 时使用 【setClassName:forClass:】 指定类名。&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Debug&quot;&gt;&lt;a href=&quot;#Debug&quot; class=&quot;headerlink&quot; title=&quot;Debug&quot;&gt;&lt;/a&gt;Debug&lt;/h2&gt;&lt;p&gt;1、断点配置：【Generate Debug Symbols】&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;描述: 用来控制断点是否生效,关闭此功能，打包.ipa时，包体积会小很多。    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;path:【project/TARGETS/Build Settings/Apple LLVM7.1 - Code Genneration/Generate Debug Symbols】&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;2、捕获全局异常：【All Exception】&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;描述: 用来捕捉整个项目在Xcode里执行时的异常。例如：try/catch时,catch住的异常,【All Exception】可以直接定位到具体位置。     &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;path: 异常捕捉(commod+7)/Xcode左下角点击+/Add Exception Breakpoint/完成(回车键)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;开发过程中的小问题记录&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Information</title>
+    <link href="http://wiki.baixin.io/2016/06/04/Information/"/>
+    <id>http://wiki.baixin.io/2016/06/04/Information/</id>
+    <published>2016-06-04T02:49:32.000Z</published>
+    <updated>2016-06-04T03:04:03.000Z</updated>
+    
+    <content type="html">&lt;p&gt;日常收集的资料&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h4 id=&quot;资料收集&quot;&gt;&lt;a href=&quot;#资料收集&quot; class=&quot;headerlink&quot; title=&quot;资料收集&quot;&gt;&lt;/a&gt;资料收集&lt;/h4&gt;&lt;p&gt;&lt;a href=&quot;https://zh-hans.khanacademy.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;可汗学院&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;https://github.com/vsouza/awesome-ios&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;awesome-ios&lt;/a&gt;、&lt;a href=&quot;https://github.com/jobbole/awesome-ios-cn&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;awesome-ios-cn&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;https://github.com/ipader/SwiftGuide&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;SwiftGuide&lt;/a&gt;   &lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;日常收集的资料&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>ML-Note</title>
+    <link href="http://wiki.baixin.io/2016/06/04/ML-Note/"/>
+    <id>http://wiki.baixin.io/2016/06/04/ML-Note/</id>
+    <published>2016-06-04T02:49:32.000Z</published>
+    <updated>2016-06-04T03:04:13.000Z</updated>
+    
+    <content type="html">&lt;p&gt;机器学习零散笔记&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h3 id=&quot;SVM&quot;&gt;&lt;a href=&quot;#SVM&quot; class=&quot;headerlink&quot; title=&quot;SVM&quot;&gt;&lt;/a&gt;SVM&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;名词解释：&lt;/strong&gt; Support Vector Machine 支持向量机，是一个有监督的学习模型。&lt;br&gt;&lt;strong&gt;用途：&lt;/strong&gt; 用来支撑区分数据的一个超平面，用于解决分类问题。&lt;br&gt;&lt;strong&gt;调参：&lt;/strong&gt; 任何数据模型都可以通过一些方式来调整成两组数据，然后使用支持向量机。&lt;br&gt;&lt;strong&gt;调参例子：&lt;/strong&gt; 例如桌上一组无规则的纸团，可以通过拍桌子，看纸团弹跳的高度来区分成两组数据。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;机器学习零散笔记&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>iOS-Multi-thread</title>
+    <link href="http://wiki.baixin.io/2016/06/04/iOS-Multi-thread/"/>
+    <id>http://wiki.baixin.io/2016/06/04/iOS-Multi-thread/</id>
+    <published>2016-06-04T02:49:32.000Z</published>
+    <updated>2016-06-04T03:04:08.000Z</updated>
+    
+    <content type="html">&lt;p&gt;iOS多线程资料收集与总结，以GCD为主。&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;&lt;strong&gt;资料收集：&lt;/strong&gt;&lt;br&gt;&lt;a href=&quot;https://developer.apple.com/library/mac/documentation/Performance/Reference/GCD_libdispatch_Ref/index.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Grand Central Dispatch (GCD) Reference&lt;/a&gt;&lt;br&gt;GCD 深入理解：&lt;a href=&quot;https://github.com/nixzhu/dev-blog/blob/master/2014-04-19-grand-central-dispatch-in-depth-part-1.md&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;第一部分&lt;/a&gt; 、&lt;a href=&quot;https://github.com/nixzhu/dev-blog/blob/master/2014-05-14-grand-central-dispatch-in-depth-part-2.md&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;第二部分&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;http://www.infoq.com/cn/articles/os-x-ios-multithread-technology&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;OS X 和 iOS 中的多线程技术&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;http://www.cocoachina.com/ios/20160511/16221.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GCD 最佳实践指南&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;https://github.com/ChenYilong/ParseSourceCodeStudy/blob/master/01_Parse%E7%9A%84%E5%A4%9A%E7%BA%BF%E7%A8%8B%E5%A4%84%E7%90%86%E6%80%9D%E8%B7%AF/Parse%E7%9A%84%E5%BA%95%E5%B1%82%E5%A4%9A%E7%BA%BF%E7%A8%8B%E5%A4%84%E7%90%86%E6%80%9D%E8%B7%AF.md&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Parse的底层多线程处理思路：GCD高级用法&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;http://www.henishuo.com/gcd-supqueue-prority/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GCD优先级子队列扫盲&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;http://www.kancloud.cn/digest/data/106702&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;iOS多线程编程(三)Grand Central Dispatch(GCD)详解&lt;/a&gt;      &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;总结：&lt;/strong&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;iOS多线程资料收集与总结，以GCD为主。&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
