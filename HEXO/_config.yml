@@ -12,7 +12,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://www.baixin.io
+url: http://baixin.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -75,6 +75,7 @@ sitemap:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  # repo: https://github.com/leopardpan/leopardpan.github.io.git
-  repo: https://git.coding.net/leopardsnow/leopardsnow.git
-  branch: coding-pages
+  repo: https://github.com/leopardpan/leopardpan.github.io.git
+  branch: master
+  # repo: https://git.coding.net/leopardsnow/leopardsnow.git
+  # branch: coding-pages
