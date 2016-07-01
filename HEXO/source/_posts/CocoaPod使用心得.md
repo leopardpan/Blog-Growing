@@ -165,6 +165,7 @@ Demo.xcworkspace 、Podfile 、Podfile.lock 、Pods
 
 待续…
 
+[深入理解 CocoaPods](http://blog.jobbole.com/53365/)    
 
 
 
